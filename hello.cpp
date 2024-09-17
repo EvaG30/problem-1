@@ -3,10 +3,13 @@ first test project */
 
 #include <iostream>
 #include <string>
+using namespace std; 
+
 #include "hello_some.h"
+ 
 
 int main(){
-   std::string s;
+   string s;
    hello_some(s);
    return 0;
 }

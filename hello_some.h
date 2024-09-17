@@ -4,6 +4,6 @@ first test project */
 #ifndef HELLO_SOME_h 
 #define HELLO_SOME_h 
 
-void hello_some(std::string s); 
+void hello_some(string s); 
 
 #endif 
