@@ -1,3 +1,4 @@
+## Молодец, что сама написала Makefile!
 PROJECT = MyPro
 
 $(PROJECT) : hello.o hello_some.o
