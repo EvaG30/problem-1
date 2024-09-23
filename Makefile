@@ -1,13 +1,13 @@
 PROJECT = MyPro
 
-$(PROJECT) : hello.o hello_some.o
-	g++ hello.o hello_some.o -o $(PROJECT) 
+$(PROJECT) : main.o hello_world.o
+	g++ main.o hello_world.o -o $(PROJECT) 
    
-hello.o : hello.cpp 
-	g++ -c hello.cpp -o hello.o 
+hello.o : main.cpp 
+	g++ -c main.cpp -o main.o 
 
-hello_some.o : hello_some.cpp hello_some.h
-	g++ -c hello_some.cpp -o hello_some.o
+hello_some.o : hello_world.cpp hello_world.h
+	g++ -c hello_world.cpp -o hello_world.o
 
 clean:
 	rm $(PROJECT) *.o

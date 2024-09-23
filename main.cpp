@@ -2,14 +2,11 @@
 first test project */
 
 #include <iostream>
-#include <string>
-using namespace std; 
-
-#include "hello_some.h"
+#include <string> 
+#include "hello_world.h"
  
-
 int main(){
-   string s;
-   hello_some(s);
+   std::string s;
+   hello_world(s);
    return 0;
 }
